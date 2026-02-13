@@ -25,7 +25,7 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Off
+	autostrutMode = Heaviest
 	rigidAttachment = False
 	istg = -1
 	resPri = 0
@@ -3551,7 +3551,7 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Off
+	autostrutMode = Heaviest
 	rigidAttachment = False
 	istg = 1
 	resPri = 0
@@ -3641,7 +3641,7 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Off
+	autostrutMode = Heaviest
 	rigidAttachment = False
 	istg = 1
 	resPri = 0
@@ -4705,7 +4705,7 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Off
+	autostrutMode = Heaviest
 	rigidAttachment = False
 	istg = 2
 	resPri = 0
@@ -4794,7 +4794,7 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Off
+	autostrutMode = Heaviest
 	rigidAttachment = False
 	istg = 2
 	resPri = 0
@@ -4885,7 +4885,7 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Off
+	autostrutMode = Heaviest
 	rigidAttachment = False
 	istg = 2
 	resPri = 0
@@ -4963,482 +4963,6 @@ PART
 }
 PART
 {
-	part = flagPartSize3_4294379630
-	partName = Part
-	persistentId = 992893621
-	pos = 0.0295929089,31.7030582,-1.80547428
-	attPos = 0,0,0
-	attPos0 = 1.58324838E-07,-0.472795486,-1.88459957
-	rot = 0,0,0,-1
-	attRot = 0,0,0,0.999999881
-	attRot0 = 0,0,0,-1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 8
-	sidx = -1
-	sqor = -1
-	sepI = 2
-	attm = 1
-	sameVesselCollision = False
-	modCost = 17.5
-	modMass = 0.00150000001
-	modSize = 0,0,0
-	sym = flagPartSize3_4294377056
-	srfN = srfAttach,Size3LargeTank_4294436150,COL_L,0|0|0.0659999996,0|0|-1,0|0|0.0659999996
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = FlagDecalBackground
-		isEnabled = True
-		currentflagUrl = Squad/FlagsAgency/NASA
-		displayingPortrait = True
-		flagSize = 1
-		placementID = 0
-		flagDisplayed = True
-		isMirrored = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		MESH
-		{
-			name = small
-			displayName = Small
-			meshName = 3.75SmallPortrait
-			orientation = PORTRAIT
-			mass = 0.00079999998
-			cost = 8.75
-			variantNames = White,Dark,Orange,TransparentBackground
-			indexOffset = 0
-		}
-		MESH
-		{
-			name = small
-			displayName = Small
-			meshName = 3.75SmallLandscape
-			orientation = LANDSCAPE
-			mass = 0
-			cost = 0
-			variantNames = White,Dark,Orange,TransparentBackground
-			indexOffset = 0
-		}
-		MESH
-		{
-			name = small
-			displayName = Small Panel
-			meshName = 3.75SmallPortraitPanel
-			orientation = PORTRAIT
-			mass = 0.0125000002
-			cost = 35
-			variantNames = WhitePanel,DarkPanel,OrangePanel
-			indexOffset = 1000
-		}
-		MESH
-		{
-			name = small
-			displayName = Small Panel
-			meshName = 3.75SmallLandscapePanel
-			orientation = LANDSCAPE
-			mass = 0.00449999981
-			cost = 17.5
-			variantNames = WhitePanel,DarkPanel,OrangePanel
-			indexOffset = 1000
-		}
-		MESH
-		{
-			name = medium
-			displayName = Medium
-			meshName = 3.75MediumPortrait
-			orientation = PORTRAIT
-			mass = 0.00469999993
-			cost = 35
-			variantNames = White,Dark,Orange,TransparentBackground
-			indexOffset = 0
-		}
-		MESH
-		{
-			name = medium
-			displayName = Medium
-			meshName = 3.75MediumLandscape
-			orientation = LANDSCAPE
-			mass = 0.00150000001
-			cost = 17.5
-			variantNames = White,Dark,Orange,TransparentBackground
-			indexOffset = 0
-		}
-		MESH
-		{
-			name = medium
-			displayName = Medium Panel
-			meshName = 3.75MediumPortraitPanel
-			orientation = PORTRAIT
-			mass = 0.0515000001
-			cost = 87.5
-			variantNames = WhitePanel,DarkPanel,OrangePanel
-			indexOffset = 1000
-		}
-		MESH
-		{
-			name = medium
-			displayName = Medium Panel
-			meshName = 3.75MediumLandscapePanel
-			orientation = LANDSCAPE
-			mass = 0.0195000004
-			cost = 52.5
-			variantNames = WhitePanel,DarkPanel,OrangePanel
-			indexOffset = 1000
-		}
-		MESH
-		{
-			name = large
-			displayName = Large
-			meshName = 3.75LargePortrait
-			orientation = PORTRAIT
-			mass = 0.0203000009
-			cost = 87.5
-			variantNames = White,Dark,Orange,TransparentBackground
-			indexOffset = 0
-		}
-		MESH
-		{
-			name = large
-			displayName = Large
-			meshName = 3.75LargeLandscape
-			orientation = LANDSCAPE
-			mass = 0.00749999983
-			cost = 52.5
-			variantNames = White,Dark,Orange,TransparentBackground
-			indexOffset = 0
-		}
-		MESH
-		{
-			name = large
-			displayName = Large Panel
-			meshName = 3.75LargePortraitPanel
-			orientation = PORTRAIT
-			mass = 0.207499996
-			cost = 192.5
-			variantNames = WhitePanel,DarkPanel,OrangePanel
-			indexOffset = 1000
-		}
-		MESH
-		{
-			name = large
-			displayName = Large Panel
-			meshName = 3.75LargeLandscapePanel
-			orientation = LANDSCAPE
-			mass = 0.0794999972
-			cost = 122.5
-			variantNames = WhitePanel,DarkPanel,OrangePanel
-			indexOffset = 1000
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TransparentBackground
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = flagPartSize3_4294377056
-	partName = Part
-	persistentId = 1001841937
-	pos = 0.0295927562,31.7030582,1.96372485
-	attPos = 0,0,0
-	attPos0 = 5.58793545E-09,-0.472795486,1.88459957
-	rot = 0,-1,0,4.37113883E-08
-	attRot = 0,0,0,0.999999881
-	attRot0 = 0,-1,0,4.37113883E-08
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 8
-	sidx = -1
-	sqor = -1
-	sepI = 2
-	attm = 1
-	sameVesselCollision = False
-	modCost = 17.5
-	modMass = 0.00150000001
-	modSize = 0,0,0
-	sym = flagPartSize3_4294379630
-	srfN = srfAttach,Size3LargeTank_4294436150,COL_L,0|0|0.0659999996,0|0|-1,0|0|0.0659999996
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = FlagDecalBackground
-		isEnabled = True
-		currentflagUrl = Squad/FlagsAgency/NASA
-		displayingPortrait = True
-		flagSize = 1
-		placementID = 0
-		flagDisplayed = True
-		isMirrored = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		MESH
-		{
-			name = small
-			displayName = Small
-			meshName = 3.75SmallPortrait
-			orientation = PORTRAIT
-			mass = 0.00079999998
-			cost = 8.75
-			variantNames = White,Dark,Orange,TransparentBackground
-			indexOffset = 0
-		}
-		MESH
-		{
-			name = small
-			displayName = Small
-			meshName = 3.75SmallLandscape
-			orientation = LANDSCAPE
-			mass = 0
-			cost = 0
-			variantNames = White,Dark,Orange,TransparentBackground
-			indexOffset = 0
-		}
-		MESH
-		{
-			name = small
-			displayName = Small Panel
-			meshName = 3.75SmallPortraitPanel
-			orientation = PORTRAIT
-			mass = 0.0125000002
-			cost = 35
-			variantNames = WhitePanel,DarkPanel,OrangePanel
-			indexOffset = 1000
-		}
-		MESH
-		{
-			name = small
-			displayName = Small Panel
-			meshName = 3.75SmallLandscapePanel
-			orientation = LANDSCAPE
-			mass = 0.00449999981
-			cost = 17.5
-			variantNames = WhitePanel,DarkPanel,OrangePanel
-			indexOffset = 1000
-		}
-		MESH
-		{
-			name = medium
-			displayName = Medium
-			meshName = 3.75MediumPortrait
-			orientation = PORTRAIT
-			mass = 0.00469999993
-			cost = 35
-			variantNames = White,Dark,Orange,TransparentBackground
-			indexOffset = 0
-		}
-		MESH
-		{
-			name = medium
-			displayName = Medium
-			meshName = 3.75MediumLandscape
-			orientation = LANDSCAPE
-			mass = 0.00150000001
-			cost = 17.5
-			variantNames = White,Dark,Orange,TransparentBackground
-			indexOffset = 0
-		}
-		MESH
-		{
-			name = medium
-			displayName = Medium Panel
-			meshName = 3.75MediumPortraitPanel
-			orientation = PORTRAIT
-			mass = 0.0515000001
-			cost = 87.5
-			variantNames = WhitePanel,DarkPanel,OrangePanel
-			indexOffset = 1000
-		}
-		MESH
-		{
-			name = medium
-			displayName = Medium Panel
-			meshName = 3.75MediumLandscapePanel
-			orientation = LANDSCAPE
-			mass = 0.0195000004
-			cost = 52.5
-			variantNames = WhitePanel,DarkPanel,OrangePanel
-			indexOffset = 1000
-		}
-		MESH
-		{
-			name = large
-			displayName = Large
-			meshName = 3.75LargePortrait
-			orientation = PORTRAIT
-			mass = 0.0203000009
-			cost = 87.5
-			variantNames = White,Dark,Orange,TransparentBackground
-			indexOffset = 0
-		}
-		MESH
-		{
-			name = large
-			displayName = Large
-			meshName = 3.75LargeLandscape
-			orientation = LANDSCAPE
-			mass = 0.00749999983
-			cost = 52.5
-			variantNames = White,Dark,Orange,TransparentBackground
-			indexOffset = 0
-		}
-		MESH
-		{
-			name = large
-			displayName = Large Panel
-			meshName = 3.75LargePortraitPanel
-			orientation = PORTRAIT
-			mass = 0.207499996
-			cost = 192.5
-			variantNames = WhitePanel,DarkPanel,OrangePanel
-			indexOffset = 1000
-		}
-		MESH
-		{
-			name = large
-			displayName = Large Panel
-			meshName = 3.75LargeLandscapePanel
-			orientation = LANDSCAPE
-			mass = 0.0794999972
-			cost = 122.5
-			variantNames = WhitePanel,DarkPanel,OrangePanel
-			indexOffset = 1000
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TransparentBackground
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
 	part = Size3MediumTank_4294082842
 	partName = Part
 	persistentId = 1124040275
@@ -5450,7 +4974,7 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Off
+	autostrutMode = Heaviest
 	rigidAttachment = False
 	istg = 2
 	resPri = 0
@@ -5543,12 +5067,12 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Off
+	autostrutMode = Heaviest
 	rigidAttachment = False
 	istg = 5
 	resPri = 0
 	dstg = 8
-	sidx = 0
+	sidx = 1
 	sqor = 5
 	sepI = 2
 	attm = 0
@@ -6454,9 +5978,9 @@ PART
 	istg = 5
 	resPri = 0
 	dstg = 8
-	sidx = 1
+	sidx = 0
 	sqor = 5
-	sepI = 8
+	sepI = 5
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -6491,7 +6015,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 6.88296795
+		scaleFactor = 6.88297272
 		height = 17.3670864
 		stagingEnabled = True
 		towerRot = 0,0.382683456,0,-0.923879564
@@ -6575,9 +6099,9 @@ PART
 	istg = 5
 	resPri = 0
 	dstg = 8
-	sidx = 1
+	sidx = 0
 	sqor = 5
-	sepI = 8
+	sepI = 5
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -6612,7 +6136,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 6.88296795
+		scaleFactor = 6.88297272
 		height = 17.3670864
 		stagingEnabled = True
 		towerRot = 0,0.923879564,0,-0.382683426
@@ -6696,9 +6220,9 @@ PART
 	istg = 5
 	resPri = 0
 	dstg = 8
-	sidx = 1
+	sidx = 0
 	sqor = 5
-	sepI = 8
+	sepI = 5
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -6733,7 +6257,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 6.88296795
+		scaleFactor = 6.88297272
 		height = 17.3670864
 		stagingEnabled = True
 		towerRot = 0,0.923879564,0,0.382683486
@@ -6817,9 +6341,9 @@ PART
 	istg = 5
 	resPri = 0
 	dstg = 8
-	sidx = 1
+	sidx = 0
 	sqor = 5
-	sepI = 8
+	sepI = 5
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -6854,7 +6378,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 6.88296795
+		scaleFactor = 6.88297272
 		height = 17.3670864
 		stagingEnabled = True
 		towerRot = 0,0.382683426,0,0.923879564
@@ -6908,6 +6432,482 @@ PART
 	{
 		name = ModuleTestSubject
 		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = flagPartSize3_4294379630
+	partName = Part
+	persistentId = 992893621
+	pos = 0.0295929089,31.7030582,-1.80547428
+	attPos = 0,0,0
+	attPos0 = 1.58324838E-07,-0.472795486,-1.88459957
+	rot = 0,0,0,-1
+	attRot = 0,0,0,0.999999881
+	attRot0 = 0,0,0,-1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 2
+	resPri = 0
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	sepI = 2
+	attm = 1
+	sameVesselCollision = False
+	modCost = 17.5
+	modMass = 0.00150000001
+	modSize = 0,0,0
+	sym = flagPartSize3_4294377056
+	srfN = srfAttach,Size3LargeTank_4294436150,COL_L,0|0|0.0659999996,0|0|-1,0|0|0.0659999996
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = FlagDecalBackground
+		isEnabled = True
+		currentflagUrl = Squad/FlagsAgency/NASA
+		displayingPortrait = True
+		flagSize = 1
+		placementID = 0
+		flagDisplayed = True
+		isMirrored = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		MESH
+		{
+			name = small
+			displayName = Small
+			meshName = 3.75SmallPortrait
+			orientation = PORTRAIT
+			mass = 0.00079999998
+			cost = 8.75
+			variantNames = White,Dark,Orange,TransparentBackground
+			indexOffset = 0
+		}
+		MESH
+		{
+			name = small
+			displayName = Small
+			meshName = 3.75SmallLandscape
+			orientation = LANDSCAPE
+			mass = 0
+			cost = 0
+			variantNames = White,Dark,Orange,TransparentBackground
+			indexOffset = 0
+		}
+		MESH
+		{
+			name = small
+			displayName = Small Panel
+			meshName = 3.75SmallPortraitPanel
+			orientation = PORTRAIT
+			mass = 0.0125000002
+			cost = 35
+			variantNames = WhitePanel,DarkPanel,OrangePanel
+			indexOffset = 1000
+		}
+		MESH
+		{
+			name = small
+			displayName = Small Panel
+			meshName = 3.75SmallLandscapePanel
+			orientation = LANDSCAPE
+			mass = 0.00449999981
+			cost = 17.5
+			variantNames = WhitePanel,DarkPanel,OrangePanel
+			indexOffset = 1000
+		}
+		MESH
+		{
+			name = medium
+			displayName = Medium
+			meshName = 3.75MediumPortrait
+			orientation = PORTRAIT
+			mass = 0.00469999993
+			cost = 35
+			variantNames = White,Dark,Orange,TransparentBackground
+			indexOffset = 0
+		}
+		MESH
+		{
+			name = medium
+			displayName = Medium
+			meshName = 3.75MediumLandscape
+			orientation = LANDSCAPE
+			mass = 0.00150000001
+			cost = 17.5
+			variantNames = White,Dark,Orange,TransparentBackground
+			indexOffset = 0
+		}
+		MESH
+		{
+			name = medium
+			displayName = Medium Panel
+			meshName = 3.75MediumPortraitPanel
+			orientation = PORTRAIT
+			mass = 0.0515000001
+			cost = 87.5
+			variantNames = WhitePanel,DarkPanel,OrangePanel
+			indexOffset = 1000
+		}
+		MESH
+		{
+			name = medium
+			displayName = Medium Panel
+			meshName = 3.75MediumLandscapePanel
+			orientation = LANDSCAPE
+			mass = 0.0195000004
+			cost = 52.5
+			variantNames = WhitePanel,DarkPanel,OrangePanel
+			indexOffset = 1000
+		}
+		MESH
+		{
+			name = large
+			displayName = Large
+			meshName = 3.75LargePortrait
+			orientation = PORTRAIT
+			mass = 0.0203000009
+			cost = 87.5
+			variantNames = White,Dark,Orange,TransparentBackground
+			indexOffset = 0
+		}
+		MESH
+		{
+			name = large
+			displayName = Large
+			meshName = 3.75LargeLandscape
+			orientation = LANDSCAPE
+			mass = 0.00749999983
+			cost = 52.5
+			variantNames = White,Dark,Orange,TransparentBackground
+			indexOffset = 0
+		}
+		MESH
+		{
+			name = large
+			displayName = Large Panel
+			meshName = 3.75LargePortraitPanel
+			orientation = PORTRAIT
+			mass = 0.207499996
+			cost = 192.5
+			variantNames = WhitePanel,DarkPanel,OrangePanel
+			indexOffset = 1000
+		}
+		MESH
+		{
+			name = large
+			displayName = Large Panel
+			meshName = 3.75LargeLandscapePanel
+			orientation = LANDSCAPE
+			mass = 0.0794999972
+			cost = 122.5
+			variantNames = WhitePanel,DarkPanel,OrangePanel
+			indexOffset = 1000
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		selectedVariant = TransparentBackground
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = flagPartSize3_4294377056
+	partName = Part
+	persistentId = 1001841937
+	pos = 0.0295927562,31.7030582,1.96372485
+	attPos = 0,0,0
+	attPos0 = 5.58793545E-09,-0.472795486,1.88459957
+	rot = 0,-1,0,4.37113883E-08
+	attRot = 0,0,0,0.999999881
+	attRot0 = 0,-1,0,4.37113883E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 2
+	resPri = 0
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	sepI = 2
+	attm = 1
+	sameVesselCollision = False
+	modCost = 17.5
+	modMass = 0.00150000001
+	modSize = 0,0,0
+	sym = flagPartSize3_4294379630
+	srfN = srfAttach,Size3LargeTank_4294436150,COL_L,0|0|0.0659999996,0|0|-1,0|0|0.0659999996
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = FlagDecalBackground
+		isEnabled = True
+		currentflagUrl = Squad/FlagsAgency/NASA
+		displayingPortrait = True
+		flagSize = 1
+		placementID = 0
+		flagDisplayed = True
+		isMirrored = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		MESH
+		{
+			name = small
+			displayName = Small
+			meshName = 3.75SmallPortrait
+			orientation = PORTRAIT
+			mass = 0.00079999998
+			cost = 8.75
+			variantNames = White,Dark,Orange,TransparentBackground
+			indexOffset = 0
+		}
+		MESH
+		{
+			name = small
+			displayName = Small
+			meshName = 3.75SmallLandscape
+			orientation = LANDSCAPE
+			mass = 0
+			cost = 0
+			variantNames = White,Dark,Orange,TransparentBackground
+			indexOffset = 0
+		}
+		MESH
+		{
+			name = small
+			displayName = Small Panel
+			meshName = 3.75SmallPortraitPanel
+			orientation = PORTRAIT
+			mass = 0.0125000002
+			cost = 35
+			variantNames = WhitePanel,DarkPanel,OrangePanel
+			indexOffset = 1000
+		}
+		MESH
+		{
+			name = small
+			displayName = Small Panel
+			meshName = 3.75SmallLandscapePanel
+			orientation = LANDSCAPE
+			mass = 0.00449999981
+			cost = 17.5
+			variantNames = WhitePanel,DarkPanel,OrangePanel
+			indexOffset = 1000
+		}
+		MESH
+		{
+			name = medium
+			displayName = Medium
+			meshName = 3.75MediumPortrait
+			orientation = PORTRAIT
+			mass = 0.00469999993
+			cost = 35
+			variantNames = White,Dark,Orange,TransparentBackground
+			indexOffset = 0
+		}
+		MESH
+		{
+			name = medium
+			displayName = Medium
+			meshName = 3.75MediumLandscape
+			orientation = LANDSCAPE
+			mass = 0.00150000001
+			cost = 17.5
+			variantNames = White,Dark,Orange,TransparentBackground
+			indexOffset = 0
+		}
+		MESH
+		{
+			name = medium
+			displayName = Medium Panel
+			meshName = 3.75MediumPortraitPanel
+			orientation = PORTRAIT
+			mass = 0.0515000001
+			cost = 87.5
+			variantNames = WhitePanel,DarkPanel,OrangePanel
+			indexOffset = 1000
+		}
+		MESH
+		{
+			name = medium
+			displayName = Medium Panel
+			meshName = 3.75MediumLandscapePanel
+			orientation = LANDSCAPE
+			mass = 0.0195000004
+			cost = 52.5
+			variantNames = WhitePanel,DarkPanel,OrangePanel
+			indexOffset = 1000
+		}
+		MESH
+		{
+			name = large
+			displayName = Large
+			meshName = 3.75LargePortrait
+			orientation = PORTRAIT
+			mass = 0.0203000009
+			cost = 87.5
+			variantNames = White,Dark,Orange,TransparentBackground
+			indexOffset = 0
+		}
+		MESH
+		{
+			name = large
+			displayName = Large
+			meshName = 3.75LargeLandscape
+			orientation = LANDSCAPE
+			mass = 0.00749999983
+			cost = 52.5
+			variantNames = White,Dark,Orange,TransparentBackground
+			indexOffset = 0
+		}
+		MESH
+		{
+			name = large
+			displayName = Large Panel
+			meshName = 3.75LargePortraitPanel
+			orientation = PORTRAIT
+			mass = 0.207499996
+			cost = 192.5
+			variantNames = WhitePanel,DarkPanel,OrangePanel
+			indexOffset = 1000
+		}
+		MESH
+		{
+			name = large
+			displayName = Large Panel
+			meshName = 3.75LargeLandscapePanel
+			orientation = LANDSCAPE
+			mass = 0.0794999972
+			cost = 122.5
+			variantNames = WhitePanel,DarkPanel,OrangePanel
+			indexOffset = 1000
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		selectedVariant = TransparentBackground
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{

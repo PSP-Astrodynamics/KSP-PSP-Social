@@ -3148,7 +3148,7 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Off
+	autostrutMode = Heaviest
 	rigidAttachment = False
 	istg = -1
 	resPri = 0
@@ -4873,7 +4873,7 @@ PART
 	istg = 5
 	resPri = 0
 	dstg = 8
-	sidx = 0
+	sidx = 1
 	sqor = 5
 	sepI = 2
 	attm = 0
@@ -6255,7 +6255,7 @@ PART
 	istg = 5
 	resPri = 0
 	dstg = 8
-	sidx = 1
+	sidx = 0
 	sqor = 5
 	sepI = 5
 	attm = 1
@@ -6292,7 +6292,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 10.1477566
+		scaleFactor = 10.1477489
 		height = 25.6047745
 		stagingEnabled = True
 		towerRot = 0,0.382683456,0,-0.923879564
@@ -6376,7 +6376,7 @@ PART
 	istg = 5
 	resPri = 0
 	dstg = 8
-	sidx = 1
+	sidx = 0
 	sqor = 5
 	sepI = 5
 	attm = 1
@@ -6413,7 +6413,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 10.1477566
+		scaleFactor = 10.1477489
 		height = 25.6047745
 		stagingEnabled = True
 		towerRot = 0,0.923879564,0,-0.382683426
@@ -6497,7 +6497,7 @@ PART
 	istg = 5
 	resPri = 0
 	dstg = 8
-	sidx = 1
+	sidx = 0
 	sqor = 5
 	sepI = 5
 	attm = 1
@@ -6534,7 +6534,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 10.1477566
+		scaleFactor = 10.1477489
 		height = 25.6047745
 		stagingEnabled = True
 		towerRot = 0,0.923879564,0,0.382683486
@@ -6618,7 +6618,7 @@ PART
 	istg = 5
 	resPri = 0
 	dstg = 8
-	sidx = 1
+	sidx = 0
 	sqor = 5
 	sepI = 5
 	attm = 1
@@ -6655,7 +6655,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 10.1477566
+		scaleFactor = 10.1477489
 		height = 25.6047745
 		stagingEnabled = True
 		towerRot = 0,0.382683426,0,0.923879564

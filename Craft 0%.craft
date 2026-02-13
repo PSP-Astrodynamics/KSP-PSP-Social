@@ -25,7 +25,7 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Off
+	autostrutMode = Heaviest
 	rigidAttachment = False
 	istg = -1
 	resPri = 0
@@ -4574,7 +4574,7 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Off
+	autostrutMode = Heaviest
 	rigidAttachment = False
 	istg = 2
 	resPri = 0
@@ -4665,12 +4665,12 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Off
+	autostrutMode = Heaviest
 	rigidAttachment = False
 	istg = 5
 	resPri = 0
 	dstg = 8
-	sidx = 0
+	sidx = 1
 	sqor = 5
 	sepI = 2
 	attm = 0
@@ -6056,9 +6056,9 @@ PART
 	istg = 5
 	resPri = 0
 	dstg = 8
-	sidx = 1
+	sidx = 0
 	sqor = 5
-	sepI = 8
+	sepI = 5
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -6093,7 +6093,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 13.1640062
+		scaleFactor = 13.1640253
 		height = 33.2153854
 		stagingEnabled = True
 		towerRot = 0,0.382683456,0,-0.923879564
@@ -6177,9 +6177,9 @@ PART
 	istg = 5
 	resPri = 0
 	dstg = 8
-	sidx = 1
+	sidx = 0
 	sqor = 5
-	sepI = 8
+	sepI = 5
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -6214,7 +6214,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 13.1640062
+		scaleFactor = 13.1640253
 		height = 33.2153854
 		stagingEnabled = True
 		towerRot = 0,0.923879564,0,-0.382683426
@@ -6298,9 +6298,9 @@ PART
 	istg = 5
 	resPri = 0
 	dstg = 8
-	sidx = 1
+	sidx = 0
 	sqor = 5
-	sepI = 8
+	sepI = 5
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -6335,7 +6335,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 13.1640062
+		scaleFactor = 13.1640253
 		height = 33.2153854
 		stagingEnabled = True
 		towerRot = 0,0.923879564,0,0.382683486
@@ -6419,9 +6419,9 @@ PART
 	istg = 5
 	resPri = 0
 	dstg = 8
-	sidx = 1
+	sidx = 0
 	sqor = 5
-	sepI = 8
+	sepI = 5
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -6456,7 +6456,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 13.1640062
+		scaleFactor = 13.1640253
 		height = 33.2153854
 		stagingEnabled = True
 		towerRot = 0,0.382683426,0,0.923879564
